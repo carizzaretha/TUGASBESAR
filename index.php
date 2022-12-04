@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +14,10 @@
         <nav>
             <h2 class="logo">Mother Dragon</h2>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Buku</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="buku.php">Buku</a></li>
                 <li><a href="">Graf</a></li>
-                <li><a href="">Grafik</a></li>    
+                <li><a href="grafik.php">Grafik</a></li>    
             </ul>
 
         </nav>
