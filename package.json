@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "chart.js": "^4.0.1"
+  },
+  "name": "tugasbesar",
+  "description": "Praktek Branch - Manpro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carizzaretha/TUGASBESAR.git"
+  },
+  "author": "Kelompok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carizzaretha/TUGASBESAR/issues"
+  },
+  "homepage": "https://github.com/carizzaretha/TUGASBESAR#readme"
+}
