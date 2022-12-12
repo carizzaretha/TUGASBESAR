@@ -8,4 +8,7 @@ if (mysqli_connect_error())
 {
     echo "Koneksi gagal"
 }
+else{
+    echo "Koneksi berhasil"
+}
 ?>
