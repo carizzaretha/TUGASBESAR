@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css"> 
     <link rel="stylesheet" href="buku1.css">
 
-
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script> 
     <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script> 
-    <title>Buku 1 Game of Thrones</title>
+    <title>Buku 2 Game of Thrones</title>
 </head>
 <body>
     <div class="topnav">
@@ -32,10 +31,9 @@
     <main class="bb" style="height:200px;">
             <div class="home__container">
                 <div class="home__data">
-                    <h3 class="home__title" style="color:#0e0f11; justify-contents:center">Buku Pertama Game of Thrones</h3>                  
+                    <h3 class="home__title" style="color:#0e0f11; justify-contents:center">Buku Kedua Game of Thrones</h3>                  
                 </div>
             </div>
-
     </main>
 
     <table id="example" class="table table-striped table-bordered" style="width:100%; color:black">
@@ -52,8 +50,8 @@
     <tbody>
             <?php
                 include 'connect.php';
-                $buku1 = mysqli_query($koneksi, "select * from book1");
-                while($row = mysqli_fetch_array($buku1)){
+                $buku2 = mysqli_query($koneksi, "select * from book2");
+                while($row = mysqli_fetch_array($buku2)){
                     echo "<tr>
                     <td>".$row['Source']."</td>
                     <td>".$row['Target']."</td>
