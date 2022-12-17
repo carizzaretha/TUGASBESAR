@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+.topnav {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #0e0f11;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: #716652;
+  transition: .4s;
+}
+
+.card-body a{
+    text-decoration: none;
+    color: #fff
+  }
+
+
+* {
+  box-sizing: border-box;
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #10182f;
+}
+
+.container {
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+
+#btnbuku{
+  background-color: #716652;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+#btnbuku:hover{
+  background-color: transparent;
+  border: 2px solid #716652;
+  cursor: pointer;
+  color: #716652;
+}
+
+.home{
+    overflow: hidden;
+    background-color: #0e0f11;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-left: 95px;
+}
+
+.home_description {
+    font-size: 12pt;
+}
